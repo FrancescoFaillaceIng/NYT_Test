@@ -12,7 +12,7 @@ header {
 .first_line{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -382,6 +382,8 @@ footer svg{
     display: flex;
     flex-direction: column;
     }
+
+    header .day_line{display: none;}
 
     .left_side_images{margin-bottom: 20px;}
 
