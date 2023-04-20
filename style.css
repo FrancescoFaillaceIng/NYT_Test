@@ -184,11 +184,10 @@ header svg{
 
 .well{
     width: 100%;
-    overflow-x: scroll;
 }
 
 .scroll{
-    width: 1000px;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(5,19%);
     grid-column-gap: 1.25%;
@@ -289,9 +288,10 @@ footer svg{
         justify-content: center;
     }
 
-
     .middle{justify-content: center;}
     .middle div{display: none;}
+
+    .well{overflow-x: scroll;}
 }
 
 @media (max-width: 1024px) {
