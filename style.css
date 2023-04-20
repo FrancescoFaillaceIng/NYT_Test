@@ -49,6 +49,10 @@ nav ul li a{
     white-space: nowrap;
 }
 
+nav ul li a:hover{
+    background: lightgray;
+}
+
 #today2{display: none;}
 
 nav ul div{
